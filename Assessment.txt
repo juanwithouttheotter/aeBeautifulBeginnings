@@ -1,0 +1,32 @@
+When picking up this project my main goal was to accomplish as much as possible from the client requirements while maintaining the structure set before me. 
+
+Fonts:
+Even though the family stacks were set up through out the project without having the fonts included by file or api they were not expressed. 
+I chose to use the google font api to alleviate this issue however google fonts documentation does allow for downloading font files to use in non-commercial settings.
+For the future, I would use something that is not dependent on the google api in the event that google decides to discontinue or change the fonts used. 
+
+Site Logos:
+This was rather difficult as I was unsure of how to test for accuracy. I added @media labels corresponding to adjustments for resolution of retina screens,
+I also adjusted the image source of the logos to bb-logo-2x in order to accomodate for the difference in resolution. (see line 321-333 of main.css)
+For the future, ensuring the the accomodation requirements are fully met.
+
+Icon: 
+I took the missing icons from the PSD and added them as png files. The icons are placed appropriately.
+I also added and realigned the social media icons in the footer.
+For the Future, I would eliminate the Google + icon from the list as it has be sunset by the company. 
+I would also use more better icons than the ones I was able to produce as they are a tad bit misaligned form the cropping process.
+
+Slideshow: 
+I extracted two additional images and added js to create the slide show.
+For the future I would edit the code to create a smoother transition between slides and also edit the html and js to make the slideshow 
+dynamically render, to make changing the photos easier and faster. 
+
+Footer:
+As previously noted I added the social media icons and made them align horizontally. Using css, I adjusted the footer menu to collapse on smaller screens. 
+The menu expands when mouse hovers over the Title. For the future, continue to adjust the styling and responsiveness of the footer such as font sizing. 
+Items such as making the menus more responsive with javascript funtionality, altering html elements with the use of css and js. 
+
+
+
+
+
